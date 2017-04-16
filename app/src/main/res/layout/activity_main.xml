@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative_1"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <TextView
+        android:text="ShopsMart"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textColor="#FAFAFA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:id="@+id/ShopSmart"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"  />
+
+    <ImageView
+        android:src="@drawable/shopsmart_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/cart"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/ShopSmart"
+        android:layout_centerHorizontal="true" />
+
+    <AutoCompleteTextView
+        android:id="@+id/PriceSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textColor="@android:color/white"
+        android:hint="Find best deal for . . . "
+        android:layout_alignBottom="@+id/browse"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"/>
+
+    <Button
+        android:id="@+id/browse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to Search"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:fontFamily="casual"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="77dp" />
+</RelativeLayout>
