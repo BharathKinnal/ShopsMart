@@ -92,9 +92,7 @@ public class MainActivity extends AppCompatActivity {
 
 ### Team Members:
 
-- Ujjwal Pasupulety (Head) - 15IT150.
 - Tushaar GVS - 15IT117.
-- Bharath A Kinnal - 15IT114.
 - Rajeev Anirudh G - 15IT230.
 
 *This project is implemented in the 'Groceries' domain and will be extended to other domains as well.*
